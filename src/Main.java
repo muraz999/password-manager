@@ -5,5 +5,6 @@ public class Main {
 
      String encrypted =  Encryptor.encrypt(password);
      System.out.println(encrypted);
+        System.out.println(Decryptor.decrypt(encrypted));
     }
 }
